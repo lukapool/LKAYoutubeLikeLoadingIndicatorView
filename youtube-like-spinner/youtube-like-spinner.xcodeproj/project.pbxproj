@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1DD3FBC1F3D9C1000807E50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DD3FBB1F3D9C1000807E50 /* main.m */; };
+		A1DD3FBF1F3D9C1000807E50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DD3FBE1F3D9C1000807E50 /* AppDelegate.m */; };
+		A1DD3FC21F3D9C1000807E50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DD3FC11F3D9C1000807E50 /* ViewController.m */; };
+		A1DD3FC51F3D9C1000807E50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DD3FC31F3D9C1000807E50 /* Main.storyboard */; };
+		A1DD3FC71F3D9C1000807E50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1DD3FC61F3D9C1000807E50 /* Assets.xcassets */; };
+		A1DD3FCA1F3D9C1000807E50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DD3FC81F3D9C1000807E50 /* LaunchScreen.storyboard */; };
+		A1DD3FD31F3D9C5100807E50 /* LKAYoutubeLikeLoadingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DD3FD21F3D9C5100807E50 /* LKAYoutubeLikeLoadingIndicatorView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1DD3FB71F3D9C1000807E50 /* youtube-like-spinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-like-spinner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1DD3FBB1F3D9C1000807E50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1DD3FBD1F3D9C1000807E50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1DD3FBE1F3D9C1000807E50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1DD3FC01F3D9C1000807E50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1DD3FC11F3D9C1000807E50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1DD3FC41F3D9C1000807E50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1DD3FC61F3D9C1000807E50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1DD3FC91F3D9C1000807E50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1DD3FCB1F3D9C1000807E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1DD3FD11F3D9C5100807E50 /* LKAYoutubeLikeLoadingIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKAYoutubeLikeLoadingIndicatorView.h; sourceTree = "<group>"; };
+		A1DD3FD21F3D9C5100807E50 /* LKAYoutubeLikeLoadingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKAYoutubeLikeLoadingIndicatorView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1DD3FB41F3D9C1000807E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1DD3FAE1F3D9C1000807E50 = {
+			isa = PBXGroup;
+			children = (
+				A1DD3FB91F3D9C1000807E50 /* youtube-like-spinner */,
+				A1DD3FB81F3D9C1000807E50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1DD3FB81F3D9C1000807E50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD3FB71F3D9C1000807E50 /* youtube-like-spinner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1DD3FB91F3D9C1000807E50 /* youtube-like-spinner */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD3FBD1F3D9C1000807E50 /* AppDelegate.h */,
+				A1DD3FBE1F3D9C1000807E50 /* AppDelegate.m */,
+				A1DD3FC01F3D9C1000807E50 /* ViewController.h */,
+				A1DD3FC11F3D9C1000807E50 /* ViewController.m */,
+				A1DD3FC31F3D9C1000807E50 /* Main.storyboard */,
+				A1DD3FC61F3D9C1000807E50 /* Assets.xcassets */,
+				A1DD3FC81F3D9C1000807E50 /* LaunchScreen.storyboard */,
+				A1DD3FCB1F3D9C1000807E50 /* Info.plist */,
+				A1DD3FBA1F3D9C1000807E50 /* Supporting Files */,
+				A1DD3FD11F3D9C5100807E50 /* LKAYoutubeLikeLoadingIndicatorView.h */,
+				A1DD3FD21F3D9C5100807E50 /* LKAYoutubeLikeLoadingIndicatorView.m */,
+			);
+			path = "youtube-like-spinner";
+			sourceTree = "<group>";
+		};
+		A1DD3FBA1F3D9C1000807E50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD3FBB1F3D9C1000807E50 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1DD3FB61F3D9C1000807E50 /* youtube-like-spinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1DD3FCE1F3D9C1000807E50 /* Build configuration list for PBXNativeTarget "youtube-like-spinner" */;
+			buildPhases = (
+				A1DD3FB31F3D9C1000807E50 /* Sources */,
+				A1DD3FB41F3D9C1000807E50 /* Frameworks */,
+				A1DD3FB51F3D9C1000807E50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "youtube-like-spinner";
+			productName = "youtube-like-spinner";
+			productReference = A1DD3FB71F3D9C1000807E50 /* youtube-like-spinner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1DD3FAF1F3D9C1000807E50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Luka;
+				TargetAttributes = {
+					A1DD3FB61F3D9C1000807E50 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = F9QPXX27PM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A1DD3FB21F3D9C1000807E50 /* Build configuration list for PBXProject "youtube-like-spinner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1DD3FAE1F3D9C1000807E50;
+			productRefGroup = A1DD3FB81F3D9C1000807E50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1DD3FB61F3D9C1000807E50 /* youtube-like-spinner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1DD3FB51F3D9C1000807E50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DD3FCA1F3D9C1000807E50 /* LaunchScreen.storyboard in Resources */,
+				A1DD3FC71F3D9C1000807E50 /* Assets.xcassets in Resources */,
+				A1DD3FC51F3D9C1000807E50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1DD3FB31F3D9C1000807E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DD3FC21F3D9C1000807E50 /* ViewController.m in Sources */,
+				A1DD3FBF1F3D9C1000807E50 /* AppDelegate.m in Sources */,
+				A1DD3FD31F3D9C5100807E50 /* LKAYoutubeLikeLoadingIndicatorView.m in Sources */,
+				A1DD3FBC1F3D9C1000807E50 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1DD3FC31F3D9C1000807E50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1DD3FC41F3D9C1000807E50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1DD3FC81F3D9C1000807E50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1DD3FC91F3D9C1000807E50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1DD3FCC1F3D9C1000807E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1DD3FCD1F3D9C1000807E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1DD3FCF1F3D9C1000807E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F9QPXX27PM;
+				INFOPLIST_FILE = "youtube-like-spinner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.find-lab.youtube-like-spinner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1DD3FD01F3D9C1000807E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F9QPXX27PM;
+				INFOPLIST_FILE = "youtube-like-spinner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.find-lab.youtube-like-spinner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1DD3FB21F3D9C1000807E50 /* Build configuration list for PBXProject "youtube-like-spinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1DD3FCC1F3D9C1000807E50 /* Debug */,
+				A1DD3FCD1F3D9C1000807E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1DD3FCE1F3D9C1000807E50 /* Build configuration list for PBXNativeTarget "youtube-like-spinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1DD3FCF1F3D9C1000807E50 /* Debug */,
+				A1DD3FD01F3D9C1000807E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1DD3FAF1F3D9C1000807E50 /* Project object */;
+}
