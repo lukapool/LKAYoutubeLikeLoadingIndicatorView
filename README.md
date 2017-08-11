@@ -5,7 +5,7 @@ Loading Indicator Inspired by YouTube App
 
 
 ## 动画效果
-![Screenshot](http://www.find-lab.cn/github/LKAYoutubeLikeLoadingIndicatorView.gif "Example of LKAYoutubeLikeLoadingIndicatorView")
+![Screenshot](https://github.com/lukapool/LKAYoutubeLikeLoadingIndicatorView/blob/master/ScreenShot.gif "Example of LKAYoutubeLikeLoadingIndicatorView")
 
 ##  安装
 
